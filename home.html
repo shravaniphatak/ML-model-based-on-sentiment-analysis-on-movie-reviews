@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movies Reviews Classifier</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: rgb(29, 6, 132);
+        }
+        textarea {
+            width: 500px;
+            height: 200px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Review Sentiment Analyzer</h1>
+    <p><i>A Machine Learning Web App which is implemented using Flask</i></p>
+    <form action="/predict" method="POST">
+        <input type="text" name="message" placeholder="Enter your movie review" required>
+        <button type="submit">Predict</button>
+    </form>
+    
+    {% if prediction %}
+    <div class="result">{{ prediction }}</div>
+    {% endif %}
+    
+</body>
+</html>
