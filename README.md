@@ -28,9 +28,7 @@ H] F1 Score: ![WhatsApp Image 2024-02-11 at 19 15 40_620bb7f3](https://github.co
 
 I] Novelty factor: ![WhatsApp Image 2024-02-11 at 19 40 10_9dea23f1](https://github.com/shravaniphatak/ML-model-based-on-sentiment-analysis-on-movie-reviews-TML-02/assets/139529931/c55d3027-75a5-403e-885f-b6b23fba0b6f)
 
-J] Explanation Video: https://github.com/shravaniphatak/ML-model-based-on-sentiment-analysis-on-movie-reviews-TML-02/assets/139529931/6ae361a1-46dd-40a0-9043-e8b90379d2b0
-
-K] References: 1) https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+J] References: 1) https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
             2) https://youtu.be/Hr06nSA-qww?si=CcndjJihqnQDX7AA
             3) https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews
             
